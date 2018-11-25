@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    font-size: 5rem;
+}
+
+.clock {
+    border: 2px solid black;
+    width: 50%;
+    /* height: 70vh; */
+    text-align: center;
+    margin: 5vh auto;
+    padding: 5px;
+}
+
+button {
+    width: 30%;
+    min-width: 100px;
+    /* height: 40px; */
+    margin: 0 auto;
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+button.start {
+    background-color: green;
+    color: white;
+}
+
+button.stop {
+    background-color: red;
+    color: white;
+}
+
+button.reset {
+    background-color: gray;
+    color: white;
+}
+
+button.clear {
+    background-color: black;
+    color: white;
+}
+
+.res {
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.res span {
+    font-size: 32px;
+    margin-bottom: -15px;
+}
+
+ol {
+    margin-top: 0px;
+    font-size: 28px;
+    text-align: center;
+}
+
+li {
+    text-align: left;
+}
